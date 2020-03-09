@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reference for menu: https://developer.android.com/guide/topics/ui/menus-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/Save"
+        android:orderInCategory="1"
+        android:title="SAVE"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/Delete"
+        android:orderInCategory="2"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/Share"
+        android:title="Share"
+        android:orderInCategory="3"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+
+    <item
+        android:title="Add image"
+        android:id="@+id/Image"
+        android:orderInCategory="4"
+        />
+</menu>
